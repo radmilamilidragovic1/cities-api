@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root {
+    --app-bg-color: rgb(163, 165, 156);
+    --on-app-bg: rgb(35, 30, 30);
+    --gradient-bg: linear-gradient(rgba(142, 161, 76, 0.7), rgba(241, 204, 70, 0.7));
+    --primary-color: rgb(41, 49, 38);
+    --on-primary-color: rgb(255, 255, 255);
+    --primary-dark-color: rgb(105, 92, 46);
+  
+    --sp-xs: 4px;
+    --sp-sm: 8px;
+    --sp-md: 16px;
+    --sp-lg: 24px;
+    --sp-xl: 32px;
+  }
+  body {
+    font-family: 'Lato', serif;
+    background-color: var(--app-bg-color);
+    color: var(--on-app-bg);
+    height: 100vh;
+  }
+  #app {
+    height: 100%;
+  }
+  
+  .pt-lg {
+    padding-top: var(--sp-lg);
+  }
+  .pb-xs {
+    padding-bottom: var(--sp-xs);
+  }
+  .py-sm {
+    padding-top: var(--sp-sm);
+    padding-bottom: var(--sp-sm);
+  }
+  .py-md {
+    padding-top: var(--sp-md);
+    padding-bottom: var(--sp-md);
+  }
+  .px-md {
+    padding-left: var(--sp-md);
+    padding-right: var(--sp-md);
+  }
+  .px-lg {
+    padding-left: var(--sp-lg);
+    padding-right: var(--sp-lg);
+  }
+  .pa-xl {
+    padding: var(--sp-xl);
+  }
+   
+  .mb-sm {
+    margin-bottom: var(--sp-sm);
+  }
+  .mb-md {
+    margin-bottom: var(--sp-md);
+  }
+  
+  .flex {
+    display: flex;
+  }
+  .items-center {
+    align-items: center;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .justify-between {
+    justify-content: space-between;
+  }
+  .gap-sm {
+    gap: var(--sp-sm);
+  }
+  .gap-md {
+    gap: var(--sp-md);
+  }
